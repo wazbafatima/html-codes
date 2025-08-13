@@ -1,0 +1,206 @@
+body{
+    .container{
+        border: 4px solid #8A0000;
+        background-color: #8A0000;
+        display: flex;
+        border-radius: 40px;
+       border: 5px solid goldenrod ;
+        justify-content: center;
+       
+    }
+    .text {
+    display: flex;
+    flex-direction: row; 
+    color: white;
+       }
+    .text h1 {
+
+     font-size:70px;
+     font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+   .container2{
+    margin-top: 50px;
+    background-color: #8A0000;
+    height: 600px;
+    width: 1330px;
+    border-radius: 40px;
+    border: 5px solid goldenrod ;
+    position: relative;
+    display:flex
+    }
+
+   .container2 .box1{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    border: 5px solid goldenrod ;
+    position:absolute ;
+    left: 13px;
+    top: 40px;
+
+   }
+    .container2 .box1 .img1{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    
+   
+   }
+   .container2 .box1 .h1{
+      font-size: large;
+      margin-left: 30px;
+      color:#8A0000
+      
+   }
+   .container2 .box1 .para{
+      margin-top: 120px;
+      margin-left: 20px;
+      font-size: 20px;
+      color: #8A0000;
+   }
+   .container2 .box1 .h3{
+      font-size: 20px;
+      margin-left: 20px;
+      color: #8A0000;
+   }
+    .container2 .box1 .h4{
+      font-size: 20px;
+      margin-left: 20px;
+      color: #8A0000;
+   }
+
+
+   .container2 .box2{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    border: 5px solid goldenrod ;
+    position:absolute ;
+    left: 350px;
+    top: 40px;
+
+   }
+   .container2 .box2 .img1{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    
+   
+   }
+   .container2 .box2 .h1{
+      font-size: large;
+      margin-left: 30px;
+      color:#8A0000
+      
+   }
+   .container2 .box2 .para{
+      margin-top: 120px;
+      margin-left: 20px;
+      font-size: 20px;
+      color: #8A0000;
+   }
+   .container2 .box2 .h3{
+      font-size: 20px;
+      margin-left: 20px;
+      color: #8A0000;
+   }
+    .container2 .box2 .h4{
+      font-size: 20px;
+      margin-left: 20px;
+      color: #8A0000;
+   }
+
+
+
+   .container2 .box3{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    border: 5px solid goldenrod ;
+    position:absolute ;
+    left: 680px;
+    top: 40px;
+  }
+   .container2 .box3 .img1{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    
+   
+   }
+   .container2 .box3 .h1{
+      font-size: large;
+      margin-left: 30px;
+      color:#8A0000
+      
+   }
+   .container2 .box3 .para{
+      margin-top: 120px;
+      margin-left: 20px;
+      font-size: 20px;
+      color: #8A0000;
+   }
+   .container2 .box3 .h3{
+      font-size: 20px;
+      margin-left: 20px;
+      color: #8A0000;
+   }
+    .container2 .box3 .h4{
+      font-size: 20px;
+      margin-left: 20px;
+      color: #8A0000;
+   }
+
+
+   .container2 .box4{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    border: 5px solid goldenrod ;
+    position:absolute ;
+    left: 1010px;
+    top: 40px;
+
+  }
+   .container2 .box4 .img1{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+   }
+   .container2 .box4 .h1{
+      font-size: large;
+      margin-left: 30px;
+      color:#8A0000
+      
+   }
+   .container2 .box4 .para{
+      margin-top: 120px;
+      margin-left: 20px;
+      font-size: 20px;
+      color: #8A0000;
+   }
+   .container2 .box4 .h3{
+      font-size: 20px;
+      margin-left: 20px;
+      color: #8A0000;
+   }
+    .container2 .box4 .h4{
+      font-size: 20px;
+      margin-left: 20px;
+      color: #8A0000;
+   }
+
+   
+
+
+    
+
+   }
+    
+    
