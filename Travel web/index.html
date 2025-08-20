@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand logo" href="#">
+                <span>T</span>ravel
+            </a>
+
+            <!-- Toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Center Links -->
+                <ul class="navbar-nav mx-auto ms-5">
+                    <li class="nav-item"><a class="nav-link" href="#">Book</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Package</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                </ul>
+
+                <!-- Search -->
+                <form class="d-flex search-box" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn search-btn" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header class="hero">
+        <div class="container">
+            <h1>Welcome to Home</h1>
+            <h2>
+                <span class="visit">Visit</span>
+                <span class="Countries">Countries</span>
+            </h2>
+            <p>Discover amazing places with us and make your travel unforgettable.</p>
+            <a href="#" class="btn btn-primary">Book place</a>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- book-section start  -->
+    <section class="book">
+        <div class="container">
+            <div class="text">
+                <h1><span>B</span>ook</h1>
+            </div>
+            <div class="row">
+                <!-- img section -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card">
+                        <img src="Book section.avif" class="card-img" alt="">
+                    </div>
+                </div>
+                <!-- input section -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <form class="form-section">
+                        <input type="text" class="form" placeholder="Where to">
+                        <br>
+                        <input type="text" class="form" placeholder="How many">
+                        <br>
+                        <input type="date" class="form" placeholder="Arrival">
+                        <br>
+                        <input type="date" class="form" placeholder="Leaving">
+                        <br>
+                        <textarea class="form" rows="5" name="text" placeholder="Enter Your name & Details"></textarea>
+                        <br>
+                        <input id="button" type="Submit" value="Book Now" class="submit">
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- book-section end  -->
+
+
+    <!-- Package Section -->
+    <section class="Package">
+        <div class="container">
+            <!-- row 1 -->
+            <div class="text">
+                <h1><span>P</span>ackage</h1>
+            </div>
+            <div class="row">
+                <!-- card 1 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card"
+                        style="width: 22rem; border-radius: 5px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);">
+                        <img src="United-Kingdom.jpg" class="card-img-top" alt="United Kingdom"
+                            style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">United Kingdom</h5>
+                            <p class="card-text">The United Kingdom boasts a diverse beauty, encompassing both vibrant cities and stunning natural landscapes.</p>
+
+                            <!-- Rating -->
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                            </div>
+
+                            <!-- Price -->
+                            <h6 class="fw-bold">Price: <span style="color: black;">$500</span></h6>
+
+                            <!-- Button -->
+                            <a href="#" class="btn btn-warning text-white fw-bold">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- card 2 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card"
+                        style="width: 22rem; border-radius: 5px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);">
+                        <img src="Australia.jpg" class="card-img-top" alt="United Kingdom"
+                            style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Australia</h5>
+                            <p class="card-text">Australia is renowned for its spectacular nature, encompassing diverse ecosystems, from tropical rainforests to arid deserts</p>
+                            <!-- Rating -->
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                            </div>
+                            <!-- Price -->
+                            <h6 class="fw-bold">Price: <span style="color: black;">$500</span></h6>
+
+                            <!-- Button -->
+                            <a href="#" class="btn btn-warning text-white fw-bold">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- card 3 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card"
+                        style="width: 22rem; border-radius: 5px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);">
+                        <img src="pakistan.jpg" class="card-img-top" alt="United Kingdom"
+                            style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Pakistan</h5>
+                            <p class="card-text">France, a land of timeless elegance, boasts diverse beauty from the romantic streets of Paris to the lavender fields of Provence.</p>
+
+                            <!-- Rating -->
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                            </div>
+                            <!-- Price -->
+                            <h6 class="fw-bold">Price: <span style="color: black;">$500</span></h6>
+
+                            <!-- Button -->
+                            <a href="#" class="btn btn-warning text-white fw-bold">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- row2 -->
+            <div class="text">
+                <h1><span>P</span>ackage</h1>
+            </div>
+            <div class="row">
+                <!-- card 4 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card"
+                        style="width: 22rem; border-radius: 5px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);">
+                        <img src="france.jpg" class="card-img-top" alt="United Kingdom"
+                            style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">France</h5>
+                            <p class="card-text">France, a land of timeless elegance, boasts diverse beauty from the romantic streets of Paris to the lavender fields of Provence.</p>
+                            <!-- Rating -->
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                            </div>
+                            <!-- Price -->
+                            <h6 class="fw-bold">Price: <span style="color: black;">$500</span></h6>
+
+                            <!-- Button -->
+                            <a href="#" class="btn btn-warning text-white fw-bold">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- card 5 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card"
+                        style="width: 22rem; border-radius: 5px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);">
+                        <img src="italy.avif" class="card-img-top" alt="United Kingdom"
+                            style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Itlay</h5>
+                            <p class="card-text">A tapestry of stunning landscapes, rich history, and vibrant culture, captivating visitors with its timeless charm</p>
+
+                            <!-- Rating -->
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                            </div>
+
+                            <!-- Price -->
+                            <h6 class="fw-bold">Price: <span style="color: black;">$500</span></h6>
+
+                            <!-- Button -->
+                            <a href="#" class="btn btn-warning text-white fw-bold">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- card 6 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card"
+                        style="width: 22rem; border-radius: 5px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);">
+                        <img src="newzealan.jpg" class="card-img-top" alt="United Kingdom"
+                            style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Newzealan</h5>
+                            <p class="card-text">Its captivating beauty is further enhanced by unique geothermal areas, lush native forests, and ancient volcanic formations,</p>
+                            <!-- Rating -->
+                            <div class="star">
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: orange;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                                <i class="fa-solid fa-star" style="color: black;"></i>
+                            </div>
+
+
+                            <!-- Price -->
+                            <h6 class="fw-bold">Price: <span style="color: black;">$500</span></h6>
+
+                            <!-- Button -->
+                            <a href="#" class="btn btn-warning text-white fw-bold">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Package section end -->
+
+
+    <!-- Services section start -->
+    <section class="Service">
+        <div class="container">
+            <div class="text">
+                <h1><span>S</span>ervices</h1>
+            </div>
+            <div class="row">
+                <!-- card 1-->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <i class="fas fa-hotel"
+                            style="padding-left: 120px; font-size: 80px;text-align: center;color: orange;margin-top: 20px;"></i>
+                        <div class="card-text">
+                            <h3>Affordable Hotel</h3>
+                             <p style="font-weight: 600; font-size: 0.9rem;">travel agency includes hotel bookings, particularly focusing on affordable options.</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- card 2-->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                          <i class="fas fa-utensils" style="padding-left: 120px; font-size: 80px;text-align: center;color: orange;margin-top: 20px;"></i>
+                        <div class="card-text">
+                            <h3>Food and Drink</h3>
+                            <p style="font-weight: 600; font-size: 0.8rem;">Taste the world one dish at a time, and quench your thirst for adventure</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- card 3 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <i class="fas fa-bullhorn" style="padding-left: 120px; font-size: 80px;text-align: center;color: orange;margin-top: 20px;"></i>
+                        <div class="card-text">
+                            <h3> Safety Guide</h3>
+                           
+                           <p style="font-weight: 600; font-size: 0.9rem;">They offer risk management services and can help with travel policy compliance, ensuring travelers are aware of and adhere to safety guideline .</p>
+                
+                    </div>
+                </div>
+                
+              
+                
+            </div>
+            <div class="text">
+                <h1><span>S</span>ervices</h1>
+            </div>
+            <div class="row">
+                <!-- card 4 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <i class="fas fa-globe-asia"
+                            style="padding-left: 120px; font-size: 80px;text-align: center;color: orange;margin-top: 20px;"></i>
+                        <div class="card-text">
+                            <h3>Around The World</h3>
+                             <p style="font-weight: 600; font-size: 0.9rem;">They  offer assistance with travel logistics like luggage and medical item delivery, and provide information on transport options and car rentals. </p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- card 5 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                          <i class="fas fa-plane" style="padding-left: 120px; font-size: 80px;text-align: center;color: orange;margin-top: 20px;"></i>
+                        <div class="card-text">
+                            <h3>Fastest Travel</h3>
+                            <p style="font-weight: 600; font-size: 0.8rem;">   These services include booking flights and accommodations, creating customized itineraries, and providing travel guidance and support.  </p>
+                                
+                        </div>
+                    </div>
+                </div>
+                 <!-- card 6 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <i class="fas fa-hiking" style="padding-left: 120px; font-size: 80px;text-align: center;color: orange;margin-top: 20px;"></i>
+                        <div class="card-text">
+                            <h3>Advetures</h3>
+                           <p style="font-weight: 600; font-size: 0.9rem;"> They might specialize in specific types of adventure activities like trekking, rafting, or cultural tours, and could also provide travel insurance and visa assistance. </p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- services section end -->
+
+    <section class="gallery">
+        <div class="container">
+             <div class="text">
+                <h1><span>G</span>allery</h1>
+             </div>
+             <div class="row">
+                <!-- img 1 -->
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                      <div class="gal"><img width="350" height="220" src="g1.jpg" alt="men"></div>
+                  </div>
+                  <!-- img 2 -->
+                   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                       <div class="gal"><img width="350" height="220" src="g2.jpg" alt="house"></div>
+                  </div>
+                  <!-- img 3 -->
+                   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                      <div class="gal"><img width="350"height="220" src="g3.jpg" alt="nature"></div> 
+                  </div>
+             </div>
+
+             <!-- row 2 -->
+               <div class="text">
+                <h1><span>G</span>allery</h1>
+             </div>
+             <div class="row">
+                <!-- img 4-->
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                      <div class="gal"><img width="350" height="220" src="g4.jpeg" alt="men"></div>
+                  </div>
+                  <!-- img 5 -->
+                   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                       <div class="gal"><img width="350" height="220" src="g5.jpeg" alt="house"></div>
+                  </div>
+                  <!-- img 6 -->
+                   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                      <div class="gal"><img width="350"height="220" src="g6.jpeg" alt="nature"></div> 
+                  </div>
+        </div>
+ </section>
+ <!-- section gallery end -->
+
+
+ <!-- sectin about us -->
+      <section class="about">
+        <div class="container">
+            <div class="text"><h1>About <span>us</span></h1></div>
+            <div class="row">
+                <!-- img -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="map"><img src="map.jpg" alt="map"></div>
+                </div>
+                <!-- text -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="para"><h1>How Travel Agency Work</h1>
+                    <p>A travel agency helps people plan their trips in an easy and comfortable way. It provides services like booking flights, hotels, and tours according to customer needs. The agency also gives guidance about best destinations, travel packages, and safety tips, so travelers can enjoy their journey without any stress.</p></div>
+                    <div class="read"><button>Read more ...</button></div>
+                </div>
+            </div>
+             
+        </div>
+    </section>
+    <!-- about section end -->
+
+
+    <!-- footer section -->
+     <section class="footer">
+        <div class="container">
+            <div class="text"><h1><span>T</span>ravel</h1></div>
+            <div class="end"><p>We make your journeys simple, safe, and memorable with the best travel services and guidance.</p></div>
+            <div class="icon">
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-pinterest"></i> </div>
+                <div class="link">Designed By <a href="#"> Wazba Fatima</a></div>
+                <div class="copy"><p>© Copyright WAZBA FATIMA.All right Reserved</p></div>
+        </div>
+
+     </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

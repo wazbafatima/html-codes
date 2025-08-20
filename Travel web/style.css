@@ -1,0 +1,490 @@
+ body {
+
+   /* logo */
+   .logo {
+     font-size: 40px;
+     font-weight: 800;
+     color: black;
+   }
+
+   .logo span {
+     color: #FFD700;
+   }
+
+   /* Navbar links */
+   .navbar-nav {
+     margin-left: 50px;
+   }
+
+   .navbar-nav .nav-link {
+     font-size: 18px;
+     font-weight: 500;
+     margin: 0px;
+     color: black;
+   }
+
+   .navbar-nav .nav-link:hover {
+     color: orange;
+   }
+
+   /* Search Box */
+   .search-box input {
+     border-radius: 10px;
+     border: 1px solid #ccc;
+
+   }
+
+   .search-btn {
+     background-color: orange;
+     color: white;
+     border-radius: 10px;
+     border: none;
+     font-weight: bold;
+     margin-left: 10px;
+
+   }
+
+   .search-btn:hover {
+     background-color: darkorange;
+   }
+
+
+   /* Hero Section */
+   .hero {
+     background: url('banner\ img.jpg') no-repeat center center/cover;
+     height: 90vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding: 20px;
+     color: white;
+   }
+
+   .hero h1 {
+     font-size: 2.5rem;
+     margin-bottom: 10px;
+   }
+
+   .hero h2 {
+     font-size: 3.5rem;
+     margin-bottom: 15px;
+
+   }
+
+
+
+   .hero .visit {
+     color: white;
+     font-weight: bold;
+   }
+
+   .hero .Countries {
+     color: orange;
+     font-weight: bold;
+   }
+
+   .hero p {
+     font-size: 1.5rem;
+     max-width: 600px;
+     margin: auto;
+     margin-bottom: 20px;
+   }
+
+   .hero .btn {
+     background: white;
+     color: black;
+     padding: 10px 20px;
+     border-radius: 5px;
+     border: none;
+     text-decoration: none;
+     font-size: 1rem;
+     transition: background 0.3s ease;
+   }
+
+   .hero .btn:hover {
+     background: orange;
+     color: white;
+   }
+
+   /* 📱 Tablet view */
+   @media (max-width: 768px) {
+     .hero h1 {
+       font-size: 2rem;
+     }
+
+     .hero h2 {
+       font-size: 1.5rem;
+     }
+
+     .hero p {
+       font-size: 0.9rem;
+     }
+   }
+
+   /* 📱 Mobile view */
+   @media (max-width: 576px) {
+     .hero h1 {
+       font-size: 1.5rem;
+     }
+
+     .hero h2 {
+       font-size: 1rem;
+     }
+
+     .hero p {
+       font-size: 0.8rem;
+     }
+
+     .hero .btn {
+       padding: 8px 16px;
+       font-size: 0.9rem;
+     }
+   }
+
+
+
+
+   /* Book Section */
+   .book {
+     padding: 50px 0;
+     background: #f9f9f9;
+   }
+
+   .book .text h1 {
+     text-align: center;
+     font-size: 2.5rem;
+     margin-bottom: 30px;
+     font-weight: bold;
+   }
+
+   .book .text h1 span {
+     color: orange;
+   }
+
+   .book .card {
+     border: none;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+     border-radius: 10px;
+     overflow: hidden;
+   }
+
+   .book .card img {
+     width: 100%;
+     height: auto;
+     border-radius: 05px;
+     overflow: hidden;
+
+   }
+
+
+
+
+   .form-section {
+     display: flex;
+     flex-direction: column;
+     gap: 3px;
+
+   }
+
+   .form-section .form {
+     width: 100%;
+     padding: 12px 15px;
+     border-radius: 8px;
+     border: none;
+     outline: none;
+     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+     font-size: 1rem;
+   }
+
+   .form-section textarea {
+     resize: none;
+   }
+
+
+   .submit {
+     background: orange;
+     color: #fff;
+     font-weight: bold;
+     border: none;
+     width: 150px;
+     padding: 12px;
+     cursor: pointer;
+     transition: background 0.3s ease-out, color 0.3s ease-out, transform 0.3s ease-out, box-shadow 0.3s ease-out;
+     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+   }
+
+   .submit:hover {
+     background: white;
+     color: black;
+     transform: scale(1.05);
+     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+
+   }
+
+   /* Package */
+   .Package {
+     padding: 60px 0;
+     background: #f9f9f9;
+   }
+
+   .Package .text h1 {
+     text-align: center;
+     font-size: 50px;
+     font-weight: 900;
+     margin-bottom: 40px;
+   }
+
+   .Package .text h1 span {
+     color: orange;
+     text-shadow: black;
+   }
+
+   .Package .card h5 {
+     font-size: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+   .Package .card p {
+     font-size: 1rem;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     margin: 0;
+     line-height: 1.4;
+     word-wrap: break-word;
+
+   }
+
+   .Package .card h6 {
+     font-size: 1.2rem;
+   }
+
+   .Package .btn-warning {
+     background-color: orange;
+     border: none;
+   }
+
+   /* sevices section */
+   .Service {
+     padding: 60px 0;
+     background: #f9f9f9;
+   }
+
+   .Service .text h1 {
+     text-align: center;
+     font-size: 50px;
+     font-weight: 900;
+     margin-bottom: 40px;
+   }
+
+   .Service .text h1 span {
+     color: orange;
+     text-shadow: black;
+
+   }
+
+   .card h3 {
+     padding-left: 50px;
+
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   }
+
+   .card p {
+     padding-left: 50px;
+
+
+   }
+
+   .Service .card {
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 14px;
+     border: none;
+     justify-content: center;
+     width: 100%;
+     height: 100%;
+
+   }
+
+
+   /* Gallery */
+   .gallery {
+     padding: 60px 0;
+     background: #f9f9f9;
+   }
+
+   .gallery .text h1 {
+     text-align: center;
+     font-size: 50px;
+     font-weight: 900;
+     margin-bottom: 40px;
+   }
+
+   .gallery .text h1 span {
+     color: orange;
+     text-shadow: black;
+   }
+
+   .gal {
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+     margin-bottom: 20px;
+   }
+
+   .gal img {
+     width: 100%;
+     display: block;
+     border-radius: 10px;
+     border: 3px solid transparent;
+     transition: transform 0.4s ease-out, border 0.4s ease-out;
+
+     /* smooth animation */
+   }
+
+   .gal img:hover {
+     transform: scale(1.1);
+     border: 3px solid #007bff;/ cursor: pointer;
+   }
+
+
+
+
+
+
+   /* about section */
+   .about {
+     padding: 60px 0;
+     background: #f9f9f9;
+   }
+
+   .about .text h1 {
+     text-align: center;
+     font-size: 50px;
+     font-weight: 900;
+     margin-bottom: 40px;
+   }
+
+   .about .text h1 span {
+     color: orange;
+   }
+
+   .about .map {
+     border: none;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+     border-radius: 10px;
+     overflow: hidden;
+   }
+
+   .about .map img {
+     width: 100%;
+     height: auto;
+     border-radius: 05px;
+
+   }
+
+
+
+
+
+   .about .para h1 {
+     font-weight: bold;
+     font-size: 30px;
+   }
+
+   .about .para p {
+     font-size: 1.2rem;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .about .read button {
+     background-color: orange;
+     border-radius: 05px;
+     width: 150px;
+     height: 50px;
+     border: none;
+     cursor: pointer;
+     transition: background-color 0.3s, transform 0.3s;
+   }
+
+   .about .read button:hover {
+     background-color: white;
+     color: black; 
+     transform: scale(1.05);
+   }
+
+   /* footer */
+   .footer {
+     padding: 60px 0;
+     background: #f9f9f9;
+   }
+
+   .footer .text {
+     text-align: center;
+     font-size: 50px;
+     font-weight: 900;
+   }
+
+   .footer .text span {
+     color: orange;
+   }
+
+   .footer .end {
+     text-align: center;
+     font-size: 20px;
+
+   }
+
+   .footer .icon {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     margin-top: 15px;
+
+   }
+
+
+   .footer .icon i {
+     font-size: 2.5rem;
+     color: black;
+     cursor: pointer;
+     transition: 0.3s ease;
+   }
+
+   .footer .icon i:hover {
+     color: #007bff;
+     transform: scale(1.2);
+   }
+
+
+   .link {
+     text-align: center;
+     font-size: 1rem;
+     font-weight: bold;
+     margin-bottom: 40px;
+   }
+
+   .link a {
+     color: #007bff;
+     text-decoration: none;
+   }
+
+   .link a:hover {
+     text-decoration: underline;
+   }
+
+   .copy {
+     text-align: center;
+     font-size: 1rem;
+     font-weight: bold;
+     margin-bottom: 40px;
+   }
+
+
+
+
+
+
+
+
+ }
